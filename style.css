@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: honeydew;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    z-index: 1;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: hsl(34, 70%, 75%);
+}
+
+h2, h3{
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+
+
+
+.resume_nav ul {
+    margin: 0 auto;
+    padding: 4px 4px;
+    width: 100%;
+    position: sticky;
+    top: 240px;
+}
+
+.resume_nav ul li {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+    height: 1.5rem;
+    width:19.5%;
+
+}
+.resume_nav ul li:hover{
+    background-color: hsl(34, 70%, 75%);
+}
+
+#about_me {
+    border: 2px solid black;
+    width:fit-content;
+    height:max-content;
+    margin: 20px 5px;
+}
+
+#about_me p {
+    border: 1px solid black;
+    padding: 15px 1px;
+    display: inline-block;
+    margin : 0 0;
+}
+
+#info {
+    width: 19%;
+}
+
+#desc {
+    width: 81%;
+}
+
+table {
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: hsl(34, 70%, 75%);
+}
+
+tbody tr:nth-child(even) td {
+    background-color: honeydew;
+}
+
+#work_location {
+    line-height: 0.2%;
+    font-style: italic;
+    width:30%;
+    font-size:small;
+}
+
+.work_duration {
+    border-bottom: 1px solid black;
+}
